@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: rgb(140,183,209);
+    background: linear-gradient(90deg, rgba(140,183,209,1) 0%, rgba(255,214,86,1) 100%, rgba(0,213,255,1) 100%);
+    /* background-image: url(teacher-login.jpg);
+    background-position: cover; */
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img{
+    width: 10%;
+    border-radius: 50%;
+    /* background-color: ; */
+}

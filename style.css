@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.6s;
+}
+.main{
+    /* background-image: url(main.jpg); */
+    /* background-color: #fffcf2; */
+    background: rgb(140,183,209);
+    background: linear-gradient(90deg, rgba(140,183,209,1) 0%, rgba(255,252,242,1) 100%, rgba(0,213,255,1) 100%);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+
+.logo:hover{
+    color: #fff;
+    background-color: #ffffff2a;
+    border-radius: 50%;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 60%;
+    margin-left: -100px;
+}
+
+.nav-list li a{
+    color: #403d39;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 1s;
+}
+
+.nav-list li a:hover{
+    color: #c45f51;
+}
+
+.navbar input{
+    margin-right: 30px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 15%;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar input:hover{
+    cursor: text;
+    background-color: antiquewhite;
+}
+
+.main-wrapper{
+    margin: 4rem auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+}
+
+.main-wrapper h2{
+    color: #403d39;
+    font-size: 6rem;
+}
+
+
+.main-wrapper h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.see-more{
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2rem;
+    transition: 0.2s;
+}
+ 
+.see-more:hover{
+    background-color: #c45f51;
+    color: #fff;
+}
+
+
+/* Dropdown for Department */
+.dropbtn {
+    background-color: #4caf4f00;
+    color: #403d39;
+    padding: 16px;
+    font-size: 1.6rem;
+    border: none;
+    /* transition-duration: 5s; */
+  }
+
+.dropbtn:hover{
+    color: #c45f51
+  }  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition-duration: 1s;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #716b6445;
+    color: #c45f51;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* Login button styles */
+.login-button {
+    background-color: #eb5e28;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #c45f51;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.login-button:hover +.dropdown-content {
+    display: block;
+}
+
+/* Dropdown for Department */
+.dropbtn-courses {
+    background-color: #4caf4f00;
+    color: #403d39;
+    padding: 16px;
+    font-size: 1.6rem;
+    border: none;
+    /* transition-duration: 5s; */
+  }
+
+.dropbtn-courses:hover{
+    color: #c45f51
+  }  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-courses {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-courses {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-courses a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition-duration: 1s;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content-courses a:hover {
+    background-color: #716b6445;
+    color: #c45f51;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-courses:hover .dropdown-content-courses {
+    display: block;
+  }

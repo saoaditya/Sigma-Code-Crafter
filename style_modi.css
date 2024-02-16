@@ -1,0 +1,8 @@
+/* Your existing CSS styles */
+.department-options {
+    display: none;
+}
+
+.department-options.active {
+    display: block;
+}

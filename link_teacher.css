@@ -1,0 +1,63 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Align courses side by side */
+}
+
+.course {
+    width: calc(50% - 10px); /* Calculate width to fit two courses side by side with a small gap */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden; /* Prevent images from overflowing */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.course1{
+    width: 100%;
+}
+.course2{
+    width: 100%;
+}
